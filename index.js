@@ -38,5 +38,5 @@ function removeLastKitten() {
 function removeFirstKitten() {
   let a = kittens;
   a.shift();
-  return a;
+  return kittens;
 }
