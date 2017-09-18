@@ -35,4 +35,3 @@ function removeFirstKitten() {
   var a = kittens.shift();
   return a;
 }
-
