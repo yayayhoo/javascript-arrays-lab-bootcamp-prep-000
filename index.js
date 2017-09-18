@@ -8,3 +8,7 @@ function destructivelyAppendKitten(name) {
 function destructivelyPrependKitten(name) {
   return [name].concat(kittens);
 }
+
+function destructivelyRemoveLastKitten() {
+  return kittens.pop();
+}
